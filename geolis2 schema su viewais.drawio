@@ -1,0 +1,1362 @@
+<mxfile host="Electron" modified="2024-03-05T08:16:07.057Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="yU4qJijFLXxxO6LgPGN-" version="22.0.2" type="device">
+  <diagram name="Page-1" id="un5AJvZj8geDbrDEd8cS">
+    <mxGraphModel dx="3072" dy="1997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nHMEkWufiI58k_DqVaCT-7" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="nHMEkWufiI58k_DqVaCT-4" target="nHMEkWufiI58k_DqVaCT-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nHMEkWufiI58k_DqVaCT-19" value="AGS_TELK_KODAS" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="nHMEkWufiI58k_DqVaCT-4" target="nHMEkWufiI58k_DqVaCT-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nHMEkWufiI58k_DqVaCT-26" value="AGS_PNS_KODAS" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="nHMEkWufiI58k_DqVaCT-4" target="nHMEkWufiI58k_DqVaCT-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nHMEkWufiI58k_DqVaCT-29" value="AGS_VGR_KODAS" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="nHMEkWufiI58k_DqVaCT-4" target="nHMEkWufiI58k_DqVaCT-30" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;APIB_GEOL_SL&lt;br&gt;AGS" tags="" id="nHMEkWufiI58k_DqVaCT-4">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="160" y="240" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="GEOLDBA&lt;br&gt;APIB_SL_TIP&lt;br&gt;AST" tags="Klasifikatoriai" id="nHMEkWufiI58k_DqVaCT-5">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="-120" y="280" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="nHMEkWufiI58k_DqVaCT-12" value="IST_ISTK_KATEGORIJA" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="nHMEkWufiI58k_DqVaCT-6" target="nHMEkWufiI58k_DqVaCT-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nHMEkWufiI58k_DqVaCT-13" value="IST_ITD_KODAS" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="nHMEkWufiI58k_DqVaCT-6" target="nHMEkWufiI58k_DqVaCT-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nHMEkWufiI58k_DqVaCT-22" value="IST_AGS_SL_NR" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;dashed=1;startArrow=ERoneToMany;startFill=0;" parent="1" source="nHMEkWufiI58k_DqVaCT-6" target="nHMEkWufiI58k_DqVaCT-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-24" value="arba TELK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="nHMEkWufiI58k_DqVaCT-22" vertex="1" connectable="0">
+          <mxGeometry x="-0.656" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nHMEkWufiI58k_DqVaCT-23" value="IST_MATOVNT_TRUMP" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#FFB570;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;dashed=1;startArrow=ERoneToMany;startFill=0;" parent="1" source="nHMEkWufiI58k_DqVaCT-6" target="nHMEkWufiI58k_DqVaCT-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nHMEkWufiI58k_DqVaCT-25" value="IST_TELK_KODAS" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;dashed=1;startArrow=ERoneToMany;startFill=0;" parent="1" source="nHMEkWufiI58k_DqVaCT-6" target="nHMEkWufiI58k_DqVaCT-18" edge="1">
+          <mxGeometry x="0.3333" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-23" value="arba AGS&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="nHMEkWufiI58k_DqVaCT-25" vertex="1" connectable="0">
+          <mxGeometry x="-0.7917" y="4" relative="1" as="geometry">
+            <mxPoint x="33" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;ISTEKLIAI&lt;br&gt;IST" tags="" id="nHMEkWufiI58k_DqVaCT-6">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="-320" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-184" value="ITD_DOKR_SUTR" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="nHMEkWufiI58k_DqVaCT-10" target="HKWOx8UjaVdxaszHi2X6-124" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-480" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;IST_TVIRT_DOK&lt;br&gt;ITD" tags="mtm" id="nHMEkWufiI58k_DqVaCT-10">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="-320" y="360" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="GEOLDBA&lt;br&gt;IST_KAT&lt;br&gt;ISTK" tags="Klasifikatoriai" id="nHMEkWufiI58k_DqVaCT-11">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="-720" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="nHMEkWufiI58k_DqVaCT-21" value="TELK_IST_TRUMP" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="nHMEkWufiI58k_DqVaCT-18" target="nHMEkWufiI58k_DqVaCT-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-147" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="nHMEkWufiI58k_DqVaCT-18" target="6K3ba-E-M_uX1vQeTb5o-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;TELKINIAI&lt;br&gt;TELK" tags="" id="nHMEkWufiI58k_DqVaCT-18">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+            <mxGeometry x="160" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="GEOLDBA&lt;br&gt;ISTEKLIU_RUSYS&lt;br&gt;IST" tags="Klasifikatoriai" id="nHMEkWufiI58k_DqVaCT-20">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="160" y="-120" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="GEOLDBA&lt;br&gt;MATAVIMO_VIENETAI" tags="Klasifikatoriai" id="nHMEkWufiI58k_DqVaCT-24">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="800" y="480" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="GEOLDBA&lt;br&gt;PANAUDOJIMO_SRITYS" tags="Klasifikatoriai" id="nHMEkWufiI58k_DqVaCT-27">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="-120" y="240" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="GEOLDBA&lt;br&gt;VANDENVIECIU_GRUPES" tags="Klasifikatoriai" id="nHMEkWufiI58k_DqVaCT-30">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="640" y="480" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-122" value="LEID_ASM_ID" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="nHMEkWufiI58k_DqVaCT-33" target="HKWOx8UjaVdxaszHi2X6-108" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-123" value="LEID_DOKR_SUTR" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="nHMEkWufiI58k_DqVaCT-33" target="HKWOx8UjaVdxaszHi2X6-124" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-890" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-126" value="LEID_ISB_TRUMP" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="nHMEkWufiI58k_DqVaCT-33" target="HKWOx8UjaVdxaszHi2X6-127" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-750" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-128" value="LEID_JVS_ID" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="nHMEkWufiI58k_DqVaCT-33" target="HKWOx8UjaVdxaszHi2X6-113" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-130" value="LEID_OI_ISDAVE&lt;br&gt;LEID_ORGIM_KOD" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="nHMEkWufiI58k_DqVaCT-33" target="nHMEkWufiI58k_DqVaCT-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-131" value="LEID_PRAS_ID" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERmandOne;startFill=0;" parent="1" source="nHMEkWufiI58k_DqVaCT-33" target="HKWOx8UjaVdxaszHi2X6-132" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1010" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nHMEkWufiI58k_DqVaCT-33" value="GEOLDBA&lt;br&gt;LEIDIMAI&lt;br&gt;LEID" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="-890" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;ORGANIZACIJOS_IMONES&lt;br&gt;ORGIM" tags="very_wide" id="nHMEkWufiI58k_DqVaCT-34">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+            <mxGeometry x="-1160" y="320" width="200" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="nHMEkWufiI58k_DqVaCT-44" value="AGS_AGS_SL_NR" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="nHMEkWufiI58k_DqVaCT-4" target="nHMEkWufiI58k_DqVaCT-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nHMEkWufiI58k_DqVaCT-45" value="TELK_TELK_KODAS" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="nHMEkWufiI58k_DqVaCT-18" target="nHMEkWufiI58k_DqVaCT-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6K3ba-E-M_uX1vQeTb5o-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#ff00ea;" parent="1" source="6K3ba-E-M_uX1vQeTb5o-1" target="6K3ba-E-M_uX1vQeTb5o-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6K3ba-E-M_uX1vQeTb5o-5" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="6K3ba-E-M_uX1vQeTb5o-1" target="nHMEkWufiI58k_DqVaCT-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6K3ba-E-M_uX1vQeTb5o-7" value="ISTEKLIU_GRUPE=&#39;POŽVAND&#39;" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;fontStyle=0;" parent="1" source="6K3ba-E-M_uX1vQeTb5o-1" target="6K3ba-E-M_uX1vQeTb5o-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6K3ba-E-M_uX1vQeTb5o-9" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="6K3ba-E-M_uX1vQeTb5o-1" target="6K3ba-E-M_uX1vQeTb5o-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6K3ba-E-M_uX1vQeTb5o-11" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#FFB570;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="6K3ba-E-M_uX1vQeTb5o-1" target="nHMEkWufiI58k_DqVaCT-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6K3ba-E-M_uX1vQeTb5o-13" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="6K3ba-E-M_uX1vQeTb5o-1" target="6K3ba-E-M_uX1vQeTb5o-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="MAPINFO&lt;br&gt;GIS_VANDENVIETES_VW" tags="View" id="6K3ba-E-M_uX1vQeTb5o-1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" parent="1" vertex="1">
+            <mxGeometry x="-240" y="-280" width="160" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="GEOLDBA&lt;br&gt;GEOG_TASKAI" tags="very_wide" id="6K3ba-E-M_uX1vQeTb5o-2">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontStyle=0;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="-520" y="-320" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="6K3ba-E-M_uX1vQeTb5o-18" value="IR_IR_TRUMP is null" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#FFB570;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="6K3ba-E-M_uX1vQeTb5o-6" target="nHMEkWufiI58k_DqVaCT-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;GG_TELK_ISTEKL_RUSYS" tags="View" id="6K3ba-E-M_uX1vQeTb5o-6">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+            <mxGeometry x="140" y="-280" width="160" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="6K3ba-E-M_uX1vQeTb5o-20" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="6K3ba-E-M_uX1vQeTb5o-8" target="6K3ba-E-M_uX1vQeTb5o-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6K3ba-E-M_uX1vQeTb5o-21" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#FFB570;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="6K3ba-E-M_uX1vQeTb5o-8" target="6K3ba-E-M_uX1vQeTb5o-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;TELK_BUKLES_MAX&lt;br&gt;naujausia telkinio būklė" tags="View" id="6K3ba-E-M_uX1vQeTb5o-8">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+            <mxGeometry x="-560" y="-240" width="160" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-33" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=cross;startFill=0;" parent="1" source="6K3ba-E-M_uX1vQeTb5o-12" target="nHMEkWufiI58k_DqVaCT-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-34" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERone;startFill=0;" parent="1" source="6K3ba-E-M_uX1vQeTb5o-12" target="nHMEkWufiI58k_DqVaCT-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;GIS_TELKINIU_EOBJ" tags="eobj" id="6K3ba-E-M_uX1vQeTb5o-12">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;fontStyle=1" parent="1" vertex="1">
+            <mxGeometry x="-220" y="-120" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="6K3ba-E-M_uX1vQeTb5o-14" value="&lt;b&gt;su grafika&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-1120" y="20" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6K3ba-E-M_uX1vQeTb5o-15" value="viewas" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-1120" y="40" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6K3ba-E-M_uX1vQeTb5o-16" value="visi ryšiai iš pažymėti" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-1120" y="60" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6K3ba-E-M_uX1vQeTb5o-17" value="žymėjimų reikšmės" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-1120" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-91" value="TEBL_TELK_KODAS" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="6K3ba-E-M_uX1vQeTb5o-19" target="nHMEkWufiI58k_DqVaCT-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-92" value="TEBL_TBUK_SUTR" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="6K3ba-E-M_uX1vQeTb5o-19" target="6K3ba-E-M_uX1vQeTb5o-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;TEL_BUK_LAIK&lt;br&gt;TEBL" tags="owned" id="6K3ba-E-M_uX1vQeTb5o-19">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="-520" y="-120" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="GEOLDBA&lt;br&gt;TECHNINES_BUKLES" tags="Klasifikatoriai" id="6K3ba-E-M_uX1vQeTb5o-22">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="-1090" y="-270" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-1" value="klasifikatoriai" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="-1120" y="80" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-4" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="lAcXZtT61QaVzYog_SZi-2" target="nHMEkWufiI58k_DqVaCT-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-5" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="lAcXZtT61QaVzYog_SZi-2" target="6K3ba-E-M_uX1vQeTb5o-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-6" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="lAcXZtT61QaVzYog_SZi-2" target="6K3ba-E-M_uX1vQeTb5o-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-760" y="-268" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-8" value="ISTEKLIU_GRUPE&amp;lt;&amp;gt;&#39;POŽVAND&#39;" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="lAcXZtT61QaVzYog_SZi-2" target="6K3ba-E-M_uX1vQeTb5o-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-9" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="lAcXZtT61QaVzYog_SZi-2" target="6K3ba-E-M_uX1vQeTb5o-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;GIS_ZGR_TELKINIAI" tags="View" id="lAcXZtT61QaVzYog_SZi-2">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" parent="1" vertex="1">
+            <mxGeometry x="-110" y="-380" width="160" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-7" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#FFB570;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="lAcXZtT61QaVzYog_SZi-2" target="nHMEkWufiI58k_DqVaCT-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-11" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="lAcXZtT61QaVzYog_SZi-10" target="nHMEkWufiI58k_DqVaCT-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-12" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="lAcXZtT61QaVzYog_SZi-10" target="6K3ba-E-M_uX1vQeTb5o-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-13" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="lAcXZtT61QaVzYog_SZi-10" target="6K3ba-E-M_uX1vQeTb5o-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-14" value="ISTEKLIU_GRUPE=&#39;POŽVAND&#39;" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="lAcXZtT61QaVzYog_SZi-10" target="6K3ba-E-M_uX1vQeTb5o-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-15" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="lAcXZtT61QaVzYog_SZi-10" target="6K3ba-E-M_uX1vQeTb5o-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-16" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#FFB570;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="lAcXZtT61QaVzYog_SZi-10" target="nHMEkWufiI58k_DqVaCT-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;GIS_ZGR_VANDENVIETES" tags="View" id="lAcXZtT61QaVzYog_SZi-10">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Helvetica;fontSize=11;fontColor=default;fontStyle=1" parent="1" vertex="1">
+            <mxGeometry x="-240" y="-240" width="160" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-26" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="lAcXZtT61QaVzYog_SZi-17" target="lAcXZtT61QaVzYog_SZi-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-27" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="lAcXZtT61QaVzYog_SZi-17" target="lAcXZtT61QaVzYog_SZi-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-40" y="-550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-47" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="lAcXZtT61QaVzYog_SZi-17" target="nHMEkWufiI58k_DqVaCT-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-50" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="lAcXZtT61QaVzYog_SZi-17" target="lAcXZtT61QaVzYog_SZi-48" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;GG_ISTEKLIU_PLOTAI&lt;br&gt;&lt;b&gt;galiojantys ??? ir ???&lt;/b&gt;" tags="View" id="lAcXZtT61QaVzYog_SZi-17">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+            <mxGeometry x="-10" y="-740" width="160" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-28" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#7EA6E0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="lAcXZtT61QaVzYog_SZi-18" target="nHMEkWufiI58k_DqVaCT-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-29" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#FFB570;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="lAcXZtT61QaVzYog_SZi-18" target="nHMEkWufiI58k_DqVaCT-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-30" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#FFB570;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="lAcXZtT61QaVzYog_SZi-18" target="nHMEkWufiI58k_DqVaCT-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="ags&lt;br&gt;&lt;b&gt;apig_geol_sl+klasifikatoriai&lt;/b&gt;" select="as (&#xa;  SELECT agsl.ags_sl_nr, agsl.ags_eiles_nr, a3.ir_pav ir_pav3, agst.ast_pav&#xa;    FROM geoldba.apib_geol_sl agsl,&#xa;         geoldba.apib_sl_tip agst,&#xa;         geoldba.istekliu_rusys a3&#xa;   WHERE agst.ast_trump = agsl.ags_ast_trump AND a3.ir_trump = agsl.ags_ist_trump&#xa;)" tags="View" id="lAcXZtT61QaVzYog_SZi-18">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+            <mxGeometry x="-520" y="-530" width="160" height="30" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-24" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#7EA6E0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="lAcXZtT61QaVzYog_SZi-21" target="lAcXZtT61QaVzYog_SZi-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-25" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#7EA6E0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="lAcXZtT61QaVzYog_SZi-21" target="lAcXZtT61QaVzYog_SZi-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-37" value="(ipl.ipl_data_iki IS NULL OR ipl_data_iki &amp;gt; sysdate)" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#7EA6E0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="lAcXZtT61QaVzYog_SZi-21" target="lAcXZtT61QaVzYog_SZi-36" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="ipl_sl&lt;br&gt;&lt;b&gt;galiojantys GIS_ISTEKLIU_PLOTAI+&lt;br&gt;&lt;/b&gt;" select="as (&#xa;  SELECT ipl.ipl_id, ipl.ipl_telk_kodas, ipl.ipl_data_nuo, ipl.ipl_data_iki, ipl.ipl_mast_trump, &#xa;         Decode(ist.IST_ISTK_KATEGORIJA, NULL, ipl.ipl_istk_kategorija, ist.IST_ISTK_KATEGORIJA) istekliu_kategorija,&#xa;         ags.ags_sl_nr, ags.ags_eiles_nr, ags.ast_pav, ags.ir_pav3, ipl.ipl_tgt_trump&#xa;    FROM geoldba.gis_istekliu_plotai ipl,&#xa;         (galiojantys_istekliai) ist,&#xa;         (ags) ags&#xa;   WHERE (ipl.ipl_data_iki IS NULL OR ipl_data_iki &gt; sysdate)&#xa;     AND ipl.ipl_ags_sl_nr = ags.ags_sl_nr(+)&#xa;     AND ipl.ipl_ags_sl_nr = ist.IST_AGS_SL_NR(+)&#xa;)" tags="View" id="lAcXZtT61QaVzYog_SZi-21">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+            <mxGeometry x="-170" y="-560" width="200" height="30" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-31" value="istekl.IST_GALIOJA_IKI IS NULL OR istekl.IST_GALIOJA_IKI &amp;gt; sysdate" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#7EA6E0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="lAcXZtT61QaVzYog_SZi-22" target="nHMEkWufiI58k_DqVaCT-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="galiojantys_istekliai&lt;br&gt;&lt;b&gt;galiojantys ištekliai&lt;/b&gt;" select="as (&#xa;  select istekl.IST_ISTK_KATEGORIJA, istekl.IST_AGS_SL_NR &#xa;    from geoldba.istekliai istekl&#xa;   where (istekl.IST_GALIOJA_IKI IS NULL OR istekl.IST_GALIOJA_IKI &gt; sysdate)&#xa;)" tags="View" id="lAcXZtT61QaVzYog_SZi-22">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+            <mxGeometry x="-320" y="-510" width="120" height="30" as="geometry" />
+          </mxCell>
+        </object>
+        <UserObject label="a1,a2" tags="View" id="lAcXZtT61QaVzYog_SZi-46">
+          <mxCell style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#FFB570;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="lAcXZtT61QaVzYog_SZi-23" target="nHMEkWufiI58k_DqVaCT-20" edge="1">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <object label="ir&lt;br&gt;&lt;b&gt;ISTEKLIU_RUSYS ir jų tėvas&lt;/b&gt;" select="as (&#xa;SELECT a1.ir_trump ir_trump, a2.ir_pav ir_pav, a1.ir_pav ir_pav2 &#xa;    FROM geoldba.istekliu_rusys a1, geoldba.istekliu_rusys a2&#xa;   WHERE a2.ir_trump = a1.ir_ir_trump&#xa;)" tags="View" id="lAcXZtT61QaVzYog_SZi-23">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+            <mxGeometry x="140" y="-630" width="160" height="30" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-32" value="selectas" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="-1120" y="100" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-38" value="IPL_AGS_SL_NR" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;dashed=1;startArrow=ERoneToMany;startFill=0;" parent="1" source="lAcXZtT61QaVzYog_SZi-36" target="nHMEkWufiI58k_DqVaCT-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-39" value="IPL_ISTK_KATEGORIJA" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#FFB570;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;dashed=1;startArrow=ERoneToMany;startFill=0;" parent="1" source="lAcXZtT61QaVzYog_SZi-36" target="nHMEkWufiI58k_DqVaCT-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-41" value="IPL_MAST_TRUMP" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#FFB570;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="lAcXZtT61QaVzYog_SZi-36" target="lAcXZtT61QaVzYog_SZi-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-42" value="IPL_TELK_KODAS" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="lAcXZtT61QaVzYog_SZi-36" target="nHMEkWufiI58k_DqVaCT-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-44" value="IPL_TGT_TRUMP" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#FFB570;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="lAcXZtT61QaVzYog_SZi-36" target="lAcXZtT61QaVzYog_SZi-43" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-45" value="IPL_ITD_KODAS" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;dashed=1;" parent="1" source="lAcXZtT61QaVzYog_SZi-36" target="nHMEkWufiI58k_DqVaCT-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;GIS_ISTEKLIU_PLOTAI&lt;br&gt;IPL" tags="" id="lAcXZtT61QaVzYog_SZi-36">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="600" y="240" width="123" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="GEOLDBA&lt;br&gt;GG_MASTELIAI" tags="Klasifikatoriai" id="lAcXZtT61QaVzYog_SZi-40">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="1220" y="120" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="GEOLDBA&lt;br&gt;GG_GRAFIKOS_TIPAI" tags="Klasifikatoriai" id="lAcXZtT61QaVzYog_SZi-43">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="1440" y="120" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-49" value="IPO_IPL_ID" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERmandOne;startFill=0;" parent="1" source="lAcXZtT61QaVzYog_SZi-48" target="lAcXZtT61QaVzYog_SZi-36" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;GIS_ISTEKLIU_PLOTU_EOBJ&lt;br&gt;IPO" tags="eobj" id="lAcXZtT61QaVzYog_SZi-48">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" parent="1" vertex="1">
+            <mxGeometry x="581.5" y="120" width="160" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-78" value="GRA_TGT_TRUMP" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#FFB570;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="lAcXZtT61QaVzYog_SZi-53" target="lAcXZtT61QaVzYog_SZi-43" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;GIS_GRAFIKOS_ATRIBUTAI&lt;br&gt;GRA" tags="Klasifikatoriai" id="lAcXZtT61QaVzYog_SZi-53">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="1700" y="360" width="160" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-55" value="GAR_GRA_ID" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="lAcXZtT61QaVzYog_SZi-54" target="lAcXZtT61QaVzYog_SZi-53" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-56" value="GAR_IPL_ID" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;dashed=1;startArrow=ERoneToMany;startFill=0;" parent="1" source="lAcXZtT61QaVzYog_SZi-54" target="lAcXZtT61QaVzYog_SZi-36" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-62" value="GAR_TSO_ID" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;dashed=1;startArrow=ERoneToMany;startFill=0;" parent="1" source="lAcXZtT61QaVzYog_SZi-54" target="lAcXZtT61QaVzYog_SZi-58" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;GIS_GRAFIKOS_ATRIBUTU_REIKSMES&lt;br&gt;GAR" tags="owned" id="lAcXZtT61QaVzYog_SZi-54">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="1660" y="240" width="240" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-63" value="TSO_TGT_TRUMP" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#FFB570;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="lAcXZtT61QaVzYog_SZi-58" target="lAcXZtT61QaVzYog_SZi-43" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-64" value="TSO_TSS_ID" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="lAcXZtT61QaVzYog_SZi-58" target="lAcXZtT61QaVzYog_SZi-59" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;GIS_TELKINIU_SCHEMU_EOBJ&lt;br&gt;TSO" tags="eobj" id="lAcXZtT61QaVzYog_SZi-58">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=1" parent="1" vertex="1">
+            <mxGeometry x="1680" y="120" width="200" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-65" value="TSS_SCS_ID" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="lAcXZtT61QaVzYog_SZi-59" target="lAcXZtT61QaVzYog_SZi-60" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-66" value="TSS_TSC_ID" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="lAcXZtT61QaVzYog_SZi-59" target="lAcXZtT61QaVzYog_SZi-61" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;GIS_TELKINIU_SCHEMU_SLUOKSNIAI&lt;br&gt;TSS&lt;br&gt;&lt;b&gt;mtm&lt;/b&gt;" tags="mtm" id="lAcXZtT61QaVzYog_SZi-59">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+            <mxGeometry x="1680" y="-10" width="200" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-74" value="SCS_GSL_ID" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="lAcXZtT61QaVzYog_SZi-60" target="lAcXZtT61QaVzYog_SZi-75" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-680" y="-810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-76" value="SCS_TGT_TRUMP" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#FFB570;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="lAcXZtT61QaVzYog_SZi-60" target="lAcXZtT61QaVzYog_SZi-43" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-77" value="SCS_TST_ID" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="lAcXZtT61QaVzYog_SZi-60" target="lAcXZtT61QaVzYog_SZi-73" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;GIS_SCHEM_SLUOKSNIAI&lt;br&gt;SCS" tags="" id="lAcXZtT61QaVzYog_SZi-60">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+            <mxGeometry x="1700" y="-120" width="160" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-67" value="TSC_GSKL_KODAS" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#FF0000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;dashed=1;startArrow=ERoneToMany;startFill=0;" parent="1" source="lAcXZtT61QaVzYog_SZi-61" target="lAcXZtT61QaVzYog_SZi-68" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-470" y="-870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-69" value="TSC_MAST_TRUMP" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#FFB570;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="lAcXZtT61QaVzYog_SZi-61" target="lAcXZtT61QaVzYog_SZi-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-70" value="TSC_TELK_KODAS" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="lAcXZtT61QaVzYog_SZi-61" target="nHMEkWufiI58k_DqVaCT-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-71" value="TSC_TST_ID" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="lAcXZtT61QaVzYog_SZi-61" target="lAcXZtT61QaVzYog_SZi-73" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-590" y="-760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;GIS_TELKINIO_SCHEMOS&lt;br&gt;TSC" tags="" id="lAcXZtT61QaVzYog_SZi-61">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="1200" width="160" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-88" value="GSKL_MAVNT" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#FFB570;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;dashed=1;startArrow=ERoneToMany;startFill=0;" parent="1" source="lAcXZtT61QaVzYog_SZi-68" target="nHMEkWufiI58k_DqVaCT-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-89" value="GSKL_TELK_KODAS" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="lAcXZtT61QaVzYog_SZi-68" target="nHMEkWufiI58k_DqVaCT-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;GAV_SKL&lt;br&gt;GSKL" tags="" id="lAcXZtT61QaVzYog_SZi-68">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+            <mxGeometry x="440" y="320" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-84" value="TST_IR_TRUMP" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="lAcXZtT61QaVzYog_SZi-73" target="nHMEkWufiI58k_DqVaCT-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-85" value="TST_SCT_ID" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="lAcXZtT61QaVzYog_SZi-73" target="lAcXZtT61QaVzYog_SZi-86" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-750" y="-940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;GIS_TELKINIU_SCHEMU_TIPAI&lt;br&gt;TST" tags="Klasifikatoriai" id="lAcXZtT61QaVzYog_SZi-73">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="1200" y="-120" width="160" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-79" value="GSL_MAST_TRUMP" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#FFB570;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="lAcXZtT61QaVzYog_SZi-75" target="lAcXZtT61QaVzYog_SZi-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-81" value="GSL_TEM_ID" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="lAcXZtT61QaVzYog_SZi-75" target="lAcXZtT61QaVzYog_SZi-83" edge="1">
+          <mxGeometry x="0.0046" relative="1" as="geometry">
+            <mxPoint x="-970" y="-840" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;GIS_GEOL_INFO_SLUOKSNIAI&lt;br&gt;GSL" tags="Klasifikatoriai" id="lAcXZtT61QaVzYog_SZi-75">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="2000" y="-120" width="160" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="GEOLDBA&lt;br&gt;GIS_TEMATIKOS&lt;br&gt;TEM" tags="Klasifikatoriai" id="lAcXZtT61QaVzYog_SZi-83">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="2280" y="-120" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="GEOLDBA&lt;br&gt;GIS_SCHEMU_TIPAI&lt;br&gt;SCT" tags="Klasifikatoriai" id="lAcXZtT61QaVzYog_SZi-86">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="1220" y="-240" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-87" value="TEM_TEM_ID" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="lAcXZtT61QaVzYog_SZi-83" target="lAcXZtT61QaVzYog_SZi-83" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAcXZtT61QaVzYog_SZi-90" value="TB_TB_SUTR" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="6K3ba-E-M_uX1vQeTb5o-22" target="6K3ba-E-M_uX1vQeTb5o-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-1" target="nHMEkWufiI58k_DqVaCT-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;APIB_GEOL_SL_EL" tags="owned" id="HKWOx8UjaVdxaszHi2X6-1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+            <mxGeometry x="120" y="600" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-3" target="nHMEkWufiI58k_DqVaCT-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-72" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-3" target="nHMEkWufiI58k_DqVaCT-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-73" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-3" target="HKWOx8UjaVdxaszHi2X6-71" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;APIB_GEOL_SL_TYR" tags="mtm" id="HKWOx8UjaVdxaszHi2X6-3">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="-200" y="640" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-8" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-5" target="nHMEkWufiI58k_DqVaCT-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;NER_ISK_GAV" tags="owned" id="HKWOx8UjaVdxaszHi2X6-5">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+            <mxGeometry x="80" y="480" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-7" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-6" target="nHMEkWufiI58k_DqVaCT-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-74" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-6" target="lAcXZtT61QaVzYog_SZi-68" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-75" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-6" target="nHMEkWufiI58k_DqVaCT-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;NER_GAV_KETV" tags="owned" id="HKWOx8UjaVdxaszHi2X6-6">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="240" y="480" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-36" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-9" target="nHMEkWufiI58k_DqVaCT-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;NER_GAV_1999" tags="owned" id="HKWOx8UjaVdxaszHi2X6-9">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="360" y="480" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-10" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-9" target="nHMEkWufiI58k_DqVaCT-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="211" y="520" as="sourcePoint" />
+            <mxPoint x="229" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-48" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-11" target="nHMEkWufiI58k_DqVaCT-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;TELK_IST_LIKUTIS&lt;br&gt;LIK" tags="owned" id="HKWOx8UjaVdxaszHi2X6-11">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="590" y="-430" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-13" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-11" target="nHMEkWufiI58k_DqVaCT-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="520" as="sourcePoint" />
+            <mxPoint x="240" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-15" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-14" target="nHMEkWufiI58k_DqVaCT-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-16" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-14" target="nHMEkWufiI58k_DqVaCT-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-37" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-14" target="nHMEkWufiI58k_DqVaCT-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;IST_PANAUDOJIMAS&lt;br&gt;IPN" tags="" id="HKWOx8UjaVdxaszHi2X6-14">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="-120" y="400" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-18" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="HKWOx8UjaVdxaszHi2X6-17" target="nHMEkWufiI58k_DqVaCT-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-19" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="HKWOx8UjaVdxaszHi2X6-17" target="nHMEkWufiI58k_DqVaCT-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;APIB_TELK_CHAR" tags="owned" id="HKWOx8UjaVdxaszHi2X6-17">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+            <mxGeometry x="-250" y="280" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-20" value="visi ryšiai iš pažymėti su rodyklem" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="-1120" y="120" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-26" value="LIKA_TELK_KODAS" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-25" target="nHMEkWufiI58k_DqVaCT-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-180" value="LIKA_GSKL_KODAS" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-25" target="lAcXZtT61QaVzYog_SZi-68" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-181" value="LIKA_IST_TRUMP" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-25" target="nHMEkWufiI58k_DqVaCT-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;TELK_AKTYV_LIKUTIS&lt;br&gt;LIKA" tags="owned" id="HKWOx8UjaVdxaszHi2X6-25">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="590" y="-490" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-28" value="TSJ_TELK_KODAS" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-27" target="nHMEkWufiI58k_DqVaCT-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-178" value="TSJ_SZJ_ID" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-27" target="HKWOx8UjaVdxaszHi2X6-179" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-790" y="-60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;GIS_TELKINIU_SAZ_JUOSTOS&lt;br&gt;TSJ" tags="mtm" id="HKWOx8UjaVdxaszHi2X6-27">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="1160" y="480" width="160" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-30" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="HKWOx8UjaVdxaszHi2X6-29" target="nHMEkWufiI58k_DqVaCT-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-31" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="HKWOx8UjaVdxaszHi2X6-29" target="HKWOx8UjaVdxaszHi2X6-32" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970" y="-290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;TEL_TYR" tags="mtm" id="HKWOx8UjaVdxaszHi2X6-29">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+            <mxGeometry x="-800" y="880" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-32" value="GEOLDBA&lt;br&gt;TYRIMAI" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-980" y="900" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-39" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-38" target="nHMEkWufiI58k_DqVaCT-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-43" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-38" target="nHMEkWufiI58k_DqVaCT-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;GREZINIO_PRIKL_TELK&lt;br&gt;GPT" tags="mtm" id="HKWOx8UjaVdxaszHi2X6-38">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+            <mxGeometry x="360" y="-400" width="160" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-40" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-38" target="HKWOx8UjaVdxaszHi2X6-42" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="439" y="-350" as="sourcePoint" />
+            <mxPoint x="500" y="-580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-146" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-42" target="6K3ba-E-M_uX1vQeTb5o-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;GREZINIAI&lt;br&gt;GR" tags="" id="HKWOx8UjaVdxaszHi2X6-42">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+            <mxGeometry x="440" y="-600" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-47" value="TNL_TELK_KODAS" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-44" target="nHMEkWufiI58k_DqVaCT-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-182" value="TNL_TZL_ID" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-44" target="HKWOx8UjaVdxaszHi2X6-183" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="-410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;TELK_NOM_LAPAI&lt;br&gt;TNL" tags="mtm" id="HKWOx8UjaVdxaszHi2X6-44">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="760" y="-430" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-50" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-49" target="nHMEkWufiI58k_DqVaCT-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-49" value="JOL&lt;br&gt;J_GF_FAILAI&lt;br&gt;FAI" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="680" y="-710" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-52" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERmandOne;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-51" target="nHMEkWufiI58k_DqVaCT-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;PASTABOS&lt;br&gt;PS" tags="owned" id="HKWOx8UjaVdxaszHi2X6-51">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="440" y="40" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-55" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-54" target="nHMEkWufiI58k_DqVaCT-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-56" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-54" target="HKWOx8UjaVdxaszHi2X6-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="TYRIMAI&lt;br&gt;ZGRT_TELKINIAI" tags="mtm" id="HKWOx8UjaVdxaszHi2X6-54">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+            <mxGeometry x="-800" y="920" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-58" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-57" target="nHMEkWufiI58k_DqVaCT-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-103" value="GOBJ_GOTIP_SUTR" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-57" target="HKWOx8UjaVdxaszHi2X6-100" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-105" value="GOBJ_ATV_ID" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;dashed=1;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-57" target="HKWOx8UjaVdxaszHi2X6-104" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-107" value="GOBJ_PAP_ID" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;dashed=1;" parent="1" source="HKWOx8UjaVdxaszHi2X6-57" target="HKWOx8UjaVdxaszHi2X6-106" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-57" value="GEOLDBA&lt;br&gt;GEOL_OBJEKTAI" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="160" y="760" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-63" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-59" target="nHMEkWufiI58k_DqVaCT-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-64" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-59" target="nHMEkWufiI58k_DqVaCT-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;TELK_IST_PANAUDOJIMAS&lt;br&gt;IPN&lt;br&gt;&lt;b&gt;mtm&lt;/b&gt;" tags="owned" id="HKWOx8UjaVdxaszHi2X6-59">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+            <mxGeometry x="-120" y="80" width="160" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-68" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-65" target="nHMEkWufiI58k_DqVaCT-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-175" value="TPL_LEID_DOK_ID" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-65" target="HKWOx8UjaVdxaszHi2X6-176" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="-642.1052631578947" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;TEL_PRI_DOK&lt;br&gt;TPL" tags="mtm" id="HKWOx8UjaVdxaszHi2X6-65">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="790" y="-550" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-70" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-69" target="nHMEkWufiI58k_DqVaCT-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-69" value="LEIDIMAI&lt;br&gt;ZGRL_GAVYBOS_OBJEKTAI&lt;br&gt;ZGGO" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="940" y="-490" width="120" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;TYRIMU_RUSYS&lt;br&gt;TYR" tags="Klasifikatoriai" id="HKWOx8UjaVdxaszHi2X6-71">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="-520" y="710" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-77" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="HKWOx8UjaVdxaszHi2X6-76" target="nHMEkWufiI58k_DqVaCT-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-78" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="HKWOx8UjaVdxaszHi2X6-76" target="nHMEkWufiI58k_DqVaCT-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-79" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="HKWOx8UjaVdxaszHi2X6-76" target="HKWOx8UjaVdxaszHi2X6-80" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-82" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="HKWOx8UjaVdxaszHi2X6-76" target="HKWOx8UjaVdxaszHi2X6-81" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-83" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="HKWOx8UjaVdxaszHi2X6-76" target="HKWOx8UjaVdxaszHi2X6-84" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-240" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="MAPINFO&lt;br&gt;GIS_TYRIMAI_VW" tags="View" id="HKWOx8UjaVdxaszHi2X6-76">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+            <mxGeometry x="-340" y="820" width="160" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-109" value="ZGT_UZSAKE_ASM_ID&lt;br&gt;ZGT_ASM_ID_ATLIKO&lt;br&gt;ZGT_ASM_ID_PATEIKE&lt;br&gt;ZGT_UZREG_ASM_ID&lt;font color=&quot;#ff0000&quot;&gt;*&lt;/font&gt;" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;dashed=1;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-80" target="HKWOx8UjaVdxaszHi2X6-108" edge="1">
+          <mxGeometry x="0.004" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-110" value="ZGT_LEID_ID&lt;br&gt;ZGT_NLEID_ID" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-80" target="nHMEkWufiI58k_DqVaCT-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-111" value="ZGT_UZSAKE_OI_KOD&lt;br&gt;ZGT_OI_ATLIKO&lt;br&gt;ZGT_OI_PATEIKE" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-80" target="nHMEkWufiI58k_DqVaCT-34" edge="1">
+          <mxGeometry x="0.0039" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-112" value="ZGT_ITD_KODAS" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-80" target="nHMEkWufiI58k_DqVaCT-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-114" value="ZGT_JVS_ID_ATLIKO&lt;br&gt;ZGT_UZSAKE_JVS_ID" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-80" target="HKWOx8UjaVdxaszHi2X6-113" edge="1">
+          <mxGeometry x="-0.0015" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-115" value="ZGT_TIPAS_GOB_SUTR" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-80" target="HKWOx8UjaVdxaszHi2X6-116" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-570" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="TYRIMAI&lt;br&gt;ZEMES_GELMIU_TYRIMAI" tags="" id="HKWOx8UjaVdxaszHi2X6-80">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="-480" y="920" width="160" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-85" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="HKWOx8UjaVdxaszHi2X6-81" target="HKWOx8UjaVdxaszHi2X6-86" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-160" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-87" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="HKWOx8UjaVdxaszHi2X6-81" target="HKWOx8UjaVdxaszHi2X6-88" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-110" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-89" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="HKWOx8UjaVdxaszHi2X6-81" target="HKWOx8UjaVdxaszHi2X6-90" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-70" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-91" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="HKWOx8UjaVdxaszHi2X6-81" target="HKWOx8UjaVdxaszHi2X6-92" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-30" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;W_ZGT_OBJEKTAI" tags="View" id="HKWOx8UjaVdxaszHi2X6-81">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+            <mxGeometry x="-130" y="1030" width="160" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-120" value="ZGTO_ZGT_ID" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=cross;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-84" target="HKWOx8UjaVdxaszHi2X6-80" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-121" value="ZGTO_ZGTV_ID" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERmandOne;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-84" target="HKWOx8UjaVdxaszHi2X6-94" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="TYRIMAI&lt;br&gt;GIS_ZGR_TYRIMU_EOBJ" tags="eobj" id="HKWOx8UjaVdxaszHi2X6-84">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=1" parent="1" vertex="1">
+            <mxGeometry x="-340" y="1060" width="160" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-93" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#7EA6E0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="HKWOx8UjaVdxaszHi2X6-86" target="HKWOx8UjaVdxaszHi2X6-94" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-150" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="1" select="" tags="View" id="HKWOx8UjaVdxaszHi2X6-86">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=default;" parent="1" vertex="1">
+            <mxGeometry x="-90" y="1010" width="40" height="20" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-95" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#7EA6E0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="HKWOx8UjaVdxaszHi2X6-88" target="HKWOx8UjaVdxaszHi2X6-94" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-96" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#7EA6E0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="HKWOx8UjaVdxaszHi2X6-88" target="nHMEkWufiI58k_DqVaCT-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="2" select="" tags="View" id="HKWOx8UjaVdxaszHi2X6-88">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=default;" parent="1" vertex="1">
+            <mxGeometry x="-50" y="1010" width="40" height="20" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-97" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#7EA6E0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="HKWOx8UjaVdxaszHi2X6-90" target="HKWOx8UjaVdxaszHi2X6-94" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-98" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#7EA6E0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="HKWOx8UjaVdxaszHi2X6-90" target="HKWOx8UjaVdxaszHi2X6-57" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-99" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#7EA6E0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="HKWOx8UjaVdxaszHi2X6-90" target="HKWOx8UjaVdxaszHi2X6-100" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="3" select="" tags="View" id="HKWOx8UjaVdxaszHi2X6-90">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=default;" parent="1" vertex="1">
+            <mxGeometry x="-10" y="1010" width="40" height="20" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-101" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#7EA6E0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="HKWOx8UjaVdxaszHi2X6-92" target="HKWOx8UjaVdxaszHi2X6-84" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-102" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#7EA6E0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="HKWOx8UjaVdxaszHi2X6-92" target="HKWOx8UjaVdxaszHi2X6-94" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="4" select="" tags="View" id="HKWOx8UjaVdxaszHi2X6-92">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=default;" parent="1" vertex="1">
+            <mxGeometry x="-70" y="1070" width="40" height="20" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-134" value="ZGTV_ATV_ID" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-94" target="HKWOx8UjaVdxaszHi2X6-104" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-135" value="ZGTV_PAP_ID" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-94" target="HKWOx8UjaVdxaszHi2X6-106" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-137" value="ZGTV_GOBJ_KOD" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="HKWOx8UjaVdxaszHi2X6-94" target="HKWOx8UjaVdxaszHi2X6-57" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-138" value="ZGTV_GOT_SUTRUMPINIMAS" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="HKWOx8UjaVdxaszHi2X6-94" target="HKWOx8UjaVdxaszHi2X6-100" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-139" value="ZGTV_GR_NR" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="HKWOx8UjaVdxaszHi2X6-94" target="HKWOx8UjaVdxaszHi2X6-42" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-140" value="ZGTV_TELK_KODAS" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="HKWOx8UjaVdxaszHi2X6-94" target="nHMEkWufiI58k_DqVaCT-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-141" value="ZGTV_ZGT_ID" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-94" target="HKWOx8UjaVdxaszHi2X6-80" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="TYRIMAI&lt;br&gt;ZGRT_VIETOS" tags="mtm" id="HKWOx8UjaVdxaszHi2X6-94">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+            <mxGeometry x="-170" y="760" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="GEOLDBA&lt;br&gt;GEOL_OBJ_TIPAI&lt;br&gt;GOT" tags="Klasifikatoriai" id="HKWOx8UjaVdxaszHi2X6-100">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="160" y="1000" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="ADRESAI&lt;br&gt;ATV" tags="very_wide" id="HKWOx8UjaVdxaszHi2X6-104">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+            <mxGeometry x="480" y="1040" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="ADRESAI&lt;br&gt;ATV_PAPILDOMI" tags="very_wide" id="HKWOx8UjaVdxaszHi2X6-106">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+            <mxGeometry x="480" y="1080" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="GEOLDBA&lt;br&gt;ASMENYS&lt;br&gt;ASM" tags="very_wide" id="HKWOx8UjaVdxaszHi2X6-108">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+            <mxGeometry x="-1000" y="360" width="200" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="GEOLDBA&lt;br&gt;JUNGTINES_VEIKLOS_SUTARTYS&lt;br&gt;JVS" tags="very_wide" id="HKWOx8UjaVdxaszHi2X6-113">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+            <mxGeometry x="-1000" y="400" width="200" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="GEOLDBA&lt;br&gt;GEOL_OBJ_BUKLES" tags="Klasifikatoriai" id="HKWOx8UjaVdxaszHi2X6-116">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="-630" y="1030" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-117" value="ZGT_BUV_ID" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=#36393d;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;fillColor=#cdeb8b;" parent="1" source="HKWOx8UjaVdxaszHi2X6-80" target="HKWOx8UjaVdxaszHi2X6-80" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;DOKUMENTU_TIPAI" tags="View" id="HKWOx8UjaVdxaszHi2X6-124">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="-1200" y="640" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="GEOLDBA&lt;br&gt;ISDAVIMO_BUDAI" tags="View" id="HKWOx8UjaVdxaszHi2X6-127">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="-1200" y="680" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-129" value="LEID_BUV_ID" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERmandOne;startFill=0;" parent="1" source="nHMEkWufiI58k_DqVaCT-33" target="nHMEkWufiI58k_DqVaCT-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;PRASYMAI" tags="owned" id="HKWOx8UjaVdxaszHi2X6-132">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+            <mxGeometry x="-1200" y="760" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-149" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERmandOne;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-148" target="6K3ba-E-M_uX1vQeTb5o-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;VANDENS_TELKINIO_TASKAI" tags="" id="HKWOx8UjaVdxaszHi2X6-148">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+            <mxGeometry x="-920" y="-520" width="160" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-151" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERmandOne;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-150" target="6K3ba-E-M_uX1vQeTb5o-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;SULINIAI" tags="" id="HKWOx8UjaVdxaszHi2X6-150">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+            <mxGeometry x="-880" y="-480" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-153" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-152" target="6K3ba-E-M_uX1vQeTb5o-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;BANDINIAI" tags="" id="HKWOx8UjaVdxaszHi2X6-152">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+            <mxGeometry x="-880" y="-440" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-155" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERmandOne;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-154" target="6K3ba-E-M_uX1vQeTb5o-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;SNIEGO_DANGOS_TASKAI" tags="" id="HKWOx8UjaVdxaszHi2X6-154">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+            <mxGeometry x="-920" y="-400" width="160" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-157" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERmandOne;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-156" target="6K3ba-E-M_uX1vQeTb5o-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;ZEMES_PAVIRSIAUS_TASKAI" tags="" id="HKWOx8UjaVdxaszHi2X6-156">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+            <mxGeometry x="-920" y="-360" width="160" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-159" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-158" target="6K3ba-E-M_uX1vQeTb5o-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-158" value="GEOLDBA&lt;br&gt;TASOS_ZIDINIAI" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-880" y="-320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-163" value="PVATS_AGS_SL_NR_SIURBTI&lt;br&gt;PVATS_AGS_SL_NR_SULEISTI" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-162" target="nHMEkWufiI58k_DqVaCT-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-172" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="HKWOx8UjaVdxaszHi2X6-163" vertex="1" connectable="0">
+          <mxGeometry x="-0.9063" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-164" value="PVATS_SULEISTI_GOBJ_KOD" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-162" target="HKWOx8UjaVdxaszHi2X6-57" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-165" value="PVATS_LEID_ID" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-162" target="nHMEkWufiI58k_DqVaCT-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-166" value="PVATS_OI_KOD" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-162" target="nHMEkWufiI58k_DqVaCT-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-167" value="PVATS_TELK_KODAS" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-162" target="nHMEkWufiI58k_DqVaCT-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-168" value="PVATS_SULEISTI_VTT_ID" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-162" target="HKWOx8UjaVdxaszHi2X6-169" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-760" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;POZ_VAND_ATASKAITOS" tags="" id="HKWOx8UjaVdxaszHi2X6-162">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
+            <mxGeometry x="-720" y="120.00000000000023" width="160" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="GEOLDBA&lt;br&gt;VANDENS_TELK" tags="" id="HKWOx8UjaVdxaszHi2X6-169">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+            <mxGeometry x="-920" y="40" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-171" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="HKWOx8UjaVdxaszHi2X6-170" target="HKWOx8UjaVdxaszHi2X6-162" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;POZ_VAND_ATS_DUOMENYS" tags="owned" id="HKWOx8UjaVdxaszHi2X6-170">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+            <mxGeometry x="-900" y="180" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-176" value="JOL&lt;br&gt;J_DOKUMENTAI" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="790" y="-662.1052631578946" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-185" value="SZJ_TGT_TRUMP" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-179" target="lAcXZtT61QaVzYog_SZi-43" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-186" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-179" target="lAcXZtT61QaVzYog_SZi-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-187" value="SZJ_SAZ_ID" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-179" target="HKWOx8UjaVdxaszHi2X6-188" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1690" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-179" value="GEOLDBA&lt;br&gt;GIS_SAZ_JUOSTOS" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-183" value="GEOLDBA&lt;br&gt;NOM_LAPAI" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="-430" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-188" value="GEOLDBA&lt;br&gt;GIS_SAZ&lt;br&gt;SAZ" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-190" value="TSZ_SAZ_ID" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-189" target="HKWOx8UjaVdxaszHi2X6-188" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKWOx8UjaVdxaszHi2X6-191" value="TSZ_TELK_KODAS" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERoneToMany;startFill=0;" parent="1" source="HKWOx8UjaVdxaszHi2X6-189" target="nHMEkWufiI58k_DqVaCT-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;GIS_TELKINIU_SAZ&lt;br&gt;TSZ" tags="mtm" id="HKWOx8UjaVdxaszHi2X6-189">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+            <mxGeometry x="1160" y="600" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="GEOLDBA&lt;br&gt;ATS_APRASYMAS" tags="ORACLE-FORMS Klasifikatoriai View eobj mtm owned very_wide" id="14hrRz7wlDZEfiyP9-pb-1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+            <mxGeometry x="-947" y="230" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="14hrRz7wlDZEfiyP9-pb-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="14hrRz7wlDZEfiyP9-pb-2" target="14hrRz7wlDZEfiyP9-pb-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1500" y="-320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14hrRz7wlDZEfiyP9-pb-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="14hrRz7wlDZEfiyP9-pb-2" target="14hrRz7wlDZEfiyP9-pb-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1640" y="-310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14hrRz7wlDZEfiyP9-pb-7" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="14hrRz7wlDZEfiyP9-pb-2" target="14hrRz7wlDZEfiyP9-pb-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1550" y="-270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="KNI ir kiekiai sluoksniuose" tags="qgis" id="14hrRz7wlDZEfiyP9-pb-2">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+            <mxGeometry x="1440" y="-440" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="14hrRz7wlDZEfiyP9-pb-9" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="14hrRz7wlDZEfiyP9-pb-4" target="lAcXZtT61QaVzYog_SZi-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="IPL" select="" tags="qgis" id="14hrRz7wlDZEfiyP9-pb-4">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=default;" parent="1" vertex="1">
+            <mxGeometry x="1480" y="-520" width="40" height="20" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="14hrRz7wlDZEfiyP9-pb-20" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="14hrRz7wlDZEfiyP9-pb-6" target="14hrRz7wlDZEfiyP9-pb-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="INFO" select="" tags="qgis" id="14hrRz7wlDZEfiyP9-pb-6">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=default;" parent="1" vertex="1">
+            <mxGeometry x="1480" y="-360" width="40" height="20" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="14hrRz7wlDZEfiyP9-pb-10" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="14hrRz7wlDZEfiyP9-pb-8" target="14hrRz7wlDZEfiyP9-pb-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1300" y="-290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="TELK" select="" tags="qgis" id="14hrRz7wlDZEfiyP9-pb-8">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=default;" parent="1" vertex="1">
+            <mxGeometry x="1280" y="-430" width="40" height="20" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="14hrRz7wlDZEfiyP9-pb-12" value="F" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="14hrRz7wlDZEfiyP9-pb-11" target="6K3ba-E-M_uX1vQeTb5o-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="-41.42857142857143" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14hrRz7wlDZEfiyP9-pb-13" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="14hrRz7wlDZEfiyP9-pb-11" target="nHMEkWufiI58k_DqVaCT-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="14hrRz7wlDZEfiyP9-pb-14" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="14hrRz7wlDZEfiyP9-pb-11" target="6K3ba-E-M_uX1vQeTb5o-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="-260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14hrRz7wlDZEfiyP9-pb-15" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="14hrRz7wlDZEfiyP9-pb-11" target="6K3ba-E-M_uX1vQeTb5o-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="14hrRz7wlDZEfiyP9-pb-16" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="14hrRz7wlDZEfiyP9-pb-11" target="nHMEkWufiI58k_DqVaCT-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="14hrRz7wlDZEfiyP9-pb-17" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="14hrRz7wlDZEfiyP9-pb-11" target="6K3ba-E-M_uX1vQeTb5o-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="MAPINFO&lt;br&gt;GIS_TELKINIAI_VW" tags="View" id="14hrRz7wlDZEfiyP9-pb-11">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+            <mxGeometry x="1220" y="-310" width="160" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="14hrRz7wlDZEfiyP9-pb-21" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="14hrRz7wlDZEfiyP9-pb-18" target="nHMEkWufiI58k_DqVaCT-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="14hrRz7wlDZEfiyP9-pb-22" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="14hrRz7wlDZEfiyP9-pb-18" target="nHMEkWufiI58k_DqVaCT-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="14hrRz7wlDZEfiyP9-pb-23" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="14hrRz7wlDZEfiyP9-pb-18" target="nHMEkWufiI58k_DqVaCT-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="14hrRz7wlDZEfiyP9-pb-24" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="14hrRz7wlDZEfiyP9-pb-18" target="nHMEkWufiI58k_DqVaCT-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="GEOLDBA&lt;br&gt;GG_TELK_ISTEKLIAI" tags="View" id="14hrRz7wlDZEfiyP9-pb-18">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+            <mxGeometry x="1420" y="-280" width="160" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="14hrRz7wlDZEfiyP9-pb-27" value="" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HpOI4SgXCBtf8A6_1q_W-3" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="HpOI4SgXCBtf8A6_1q_W-1" target="HpOI4SgXCBtf8A6_1q_W-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1020" y="-800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HpOI4SgXCBtf8A6_1q_W-5" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="HpOI4SgXCBtf8A6_1q_W-1" target="HpOI4SgXCBtf8A6_1q_W-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-880" y="-790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HpOI4SgXCBtf8A6_1q_W-7" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="HpOI4SgXCBtf8A6_1q_W-1" target="HpOI4SgXCBtf8A6_1q_W-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1020" y="-760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HpOI4SgXCBtf8A6_1q_W-9" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#ff00ea;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="HpOI4SgXCBtf8A6_1q_W-1" target="HpOI4SgXCBtf8A6_1q_W-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-920" y="-730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="GEOLIS_EPAS&lt;br&gt;GIS_GEOLIS_PAZZEM" tags="View" id="HpOI4SgXCBtf8A6_1q_W-1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+            <mxGeometry x="-930" y="-1150" width="160" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HpOI4SgXCBtf8A6_1q_W-12" value="PZ_PAZEIDE_ASM_ID&lt;br&gt;PZ_PATEIKE_ASM_ID" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;dashed=1;startArrow=ERoneToMany;startFill=0;" edge="1" parent="1" source="HpOI4SgXCBtf8A6_1q_W-4" target="HKWOx8UjaVdxaszHi2X6-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HpOI4SgXCBtf8A6_1q_W-13" value="PZ_ATV_ID" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;startArrow=ERoneToMany;startFill=0;endArrow=classic;" edge="1" parent="1" source="HpOI4SgXCBtf8A6_1q_W-4" target="HKWOx8UjaVdxaszHi2X6-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HpOI4SgXCBtf8A6_1q_W-14" value="PZ_IST_TRUMP" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;startArrow=ERoneToMany;startFill=0;endArrow=classic;" edge="1" parent="1" source="HpOI4SgXCBtf8A6_1q_W-4" target="nHMEkWufiI58k_DqVaCT-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HpOI4SgXCBtf8A6_1q_W-15" value="PZ_PAZEIDE_OI_KOD&lt;br&gt;PZ_PATEIKE_OI_KOD" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;startArrow=ERoneToMany;startFill=0;endArrow=classic;" edge="1" parent="1" source="HpOI4SgXCBtf8A6_1q_W-4" target="nHMEkWufiI58k_DqVaCT-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HpOI4SgXCBtf8A6_1q_W-16" value="PZ_TELK_KODAS" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;startArrow=ERoneToMany;startFill=0;endArrow=classic;" edge="1" parent="1" source="HpOI4SgXCBtf8A6_1q_W-4" target="nHMEkWufiI58k_DqVaCT-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HpOI4SgXCBtf8A6_1q_W-19" value="PZ_VSTT_LGT_ID" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;startArrow=ERoneToMany;startFill=0;endArrow=classic;" edge="1" parent="1" source="HpOI4SgXCBtf8A6_1q_W-4" target="HpOI4SgXCBtf8A6_1q_W-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HpOI4SgXCBtf8A6_1q_W-21" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;startArrow=ERoneToMany;startFill=0;endArrow=classic;" edge="1" parent="1" source="HpOI4SgXCBtf8A6_1q_W-4" target="HpOI4SgXCBtf8A6_1q_W-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HpOI4SgXCBtf8A6_1q_W-22" value="PZ_TER_TIPAS" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;startArrow=ERoneToMany;startFill=0;endArrow=classic;" edge="1" parent="1" source="HpOI4SgXCBtf8A6_1q_W-4" target="HpOI4SgXCBtf8A6_1q_W-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HpOI4SgXCBtf8A6_1q_W-4" value="PAZZEM&lt;br&gt;PT_TERITORIJOS" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-1040" y="-880" width="120" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="PAZZEM&lt;br&gt;PT_REF_CODES" tags="Klasifikatoriai" id="HpOI4SgXCBtf8A6_1q_W-6">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+            <mxGeometry x="-1280" y="-760" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HpOI4SgXCBtf8A6_1q_W-23" value="PZB_TVIRT_ASM_ID" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;startArrow=ERoneToMany;startFill=0;endArrow=classic;" edge="1" parent="1" source="HpOI4SgXCBtf8A6_1q_W-8" target="HKWOx8UjaVdxaszHi2X6-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HpOI4SgXCBtf8A6_1q_W-24" value="PZB_PATEIKE_OI_KOD" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;startArrow=ERoneToMany;startFill=0;endArrow=classic;" edge="1" parent="1" source="HpOI4SgXCBtf8A6_1q_W-8" target="nHMEkWufiI58k_DqVaCT-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HpOI4SgXCBtf8A6_1q_W-25" value="PZB_TV_PRIORITETAS&lt;br&gt;PZB_GOB_SUTR*" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;startArrow=ERoneToMany;startFill=0;endArrow=classic;" edge="1" parent="1" source="HpOI4SgXCBtf8A6_1q_W-8" target="HpOI4SgXCBtf8A6_1q_W-6">
+          <mxGeometry x="-0.0002" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HpOI4SgXCBtf8A6_1q_W-26" value="PZB_PZ_ID" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;startArrow=ERoneToMany;startFill=0;endArrow=classic;" edge="1" parent="1" source="HpOI4SgXCBtf8A6_1q_W-8" target="HpOI4SgXCBtf8A6_1q_W-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HpOI4SgXCBtf8A6_1q_W-8" value="PAZZEM&lt;br&gt;PT_BUKLE" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-1360" y="-1000" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HpOI4SgXCBtf8A6_1q_W-11" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;startArrow=ERmandOne;startFill=0;" edge="1" parent="1" source="HpOI4SgXCBtf8A6_1q_W-10" target="HpOI4SgXCBtf8A6_1q_W-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="PAZZEM&lt;br&gt;GIS_PT_EOBJ&lt;br&gt;PTTOB" tags="eobj" id="HpOI4SgXCBtf8A6_1q_W-10">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#cdeb8b;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
+            <mxGeometry x="-740" y="-1020" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HpOI4SgXCBtf8A6_1q_W-18" value="GEOLDBA&lt;br&gt;WSTT_SAUGOMOS_TERITORIJOS&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1280" y="-520" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HpOI4SgXCBtf8A6_1q_W-20" value="GEOLDBA&lt;br&gt;ZEMENAUDOS" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1400" y="-570" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HpOI4SgXCBtf8A6_1q_W-27" value="PTC_GRUPE" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;startArrow=ERoneToMany;startFill=0;endArrow=classic;" edge="1" parent="1" source="HpOI4SgXCBtf8A6_1q_W-6" target="HpOI4SgXCBtf8A6_1q_W-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HpOI4SgXCBtf8A6_1q_W-29" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;startArrow=ERmandOne;startFill=0;endArrow=classic;" edge="1" parent="1" source="HpOI4SgXCBtf8A6_1q_W-28" target="HpOI4SgXCBtf8A6_1q_W-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HpOI4SgXCBtf8A6_1q_W-28" value="PAZZEM&lt;br&gt;PT_PASTABOS" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="-940" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HpOI4SgXCBtf8A6_1q_W-31" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;startArrow=ERoneToMany;startFill=0;endArrow=classic;" edge="1" parent="1" source="HpOI4SgXCBtf8A6_1q_W-30" target="HpOI4SgXCBtf8A6_1q_W-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="PAZZEM&lt;br&gt;GIS_PT_PLOTO_EOBJ" tags="eobj" id="HpOI4SgXCBtf8A6_1q_W-30">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontStyle=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+            <mxGeometry x="-720" y="-980" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HpOI4SgXCBtf8A6_1q_W-33" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;startArrow=ERoneToMany;startFill=0;endArrow=classic;" edge="1" parent="1" source="HpOI4SgXCBtf8A6_1q_W-32" target="HpOI4SgXCBtf8A6_1q_W-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HpOI4SgXCBtf8A6_1q_W-32" value="PAZZEM&lt;br&gt;PT_PLOTO_RIBOS" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="-900" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HpOI4SgXCBtf8A6_1q_W-35" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;startArrow=ERoneToMany;startFill=0;endArrow=classic;" edge="1" parent="1" source="HpOI4SgXCBtf8A6_1q_W-34" target="HpOI4SgXCBtf8A6_1q_W-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HpOI4SgXCBtf8A6_1q_W-34" value="PAZZEM&lt;br&gt;PT_DOKUMENTAI" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="-860" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HpOI4SgXCBtf8A6_1q_W-37" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;startArrow=ERoneToMany;startFill=0;endArrow=classic;" edge="1" parent="1" source="HpOI4SgXCBtf8A6_1q_W-36" target="HpOI4SgXCBtf8A6_1q_W-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HpOI4SgXCBtf8A6_1q_W-36" value="PAZZEM&lt;br&gt;PT_GEOL_SL" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="-820" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HpOI4SgXCBtf8A6_1q_W-39" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;startArrow=ERoneToMany;startFill=0;endArrow=classic;" edge="1" parent="1" source="HpOI4SgXCBtf8A6_1q_W-38" target="HpOI4SgXCBtf8A6_1q_W-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HpOI4SgXCBtf8A6_1q_W-40" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;startArrow=ERoneToMany;startFill=0;endArrow=classic;" edge="1" parent="1" source="HpOI4SgXCBtf8A6_1q_W-38" target="HpOI4SgXCBtf8A6_1q_W-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HpOI4SgXCBtf8A6_1q_W-38" value="PAZZEM&lt;br&gt;PT_ZSKL_NUOSAVYBE" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-1480" y="-880" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
